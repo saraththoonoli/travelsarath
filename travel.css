@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.travel{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .logo{
+    width: 150px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: black;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.7s;
+    
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff ;
+    color: transparent;
+}
+.content a{
+    text-decoration: none;
+    padding:14px 70px  ;
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+.bgvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.home{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(108, 107, 107);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.freevector.com/uploads/vector/preview/17084/FreeVector-Take-Off.jpg);
+    padding-top: 20px;
+    background-attachment: fixed;
+}
+.home h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    text-decoration: solid;
+    -webkit-text-stroke: 2px #fff ;
+}
+#lineimage1{
+    width: 100%;
+    background-color: rgb(101, 153, 168);
+    height: 50px;
+    border-radius: 100px;
+    padding:  40px 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    
+
+}
+#lineimage1  img{
+    width: 150px;
+    display: inline-block;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+ 
+}
+#homecontent{
+    background-color: rgb(17, 17, 59);
+    width: 75%;
+    height: 400px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+#homecontent h4 {
+    color: #fff;
+}
+#homecontent .col h5{
+    color: yellow;
+
+}
+#homecontent .col img{
+    height: 200px;
+}
+#homecontent .col #cardbtn{
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+#second{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://cdn.wallpapersafari.com/62/52/t5D7pL.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#second .row h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+#second .row .col{
+   margin: 30px 30px;
+}
+#best{
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    height: 340px;
+    background-color: #282252;
+    border-radius: 10px;
+}
+#best .col #carouselExampleInterval{
+   width: 500px;
+   margin-left: 100px;
+   padding-top: px;
+   border-radius: 10px;
+}
+#secondd{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://as1.ftcdn.net/v2/jpg/02/39/48/38/1000_F_239483825_MgZTzjH3Iev8RZG7ZmzFIovIReXmyd8A.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#secondd h3{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#secondd .row .col{
+    padding: 25px 60px;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+}
+#secondd .row .col #card img{
+    width:200px;
+    height: 220px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.card:hover{
+   
+    color: rebeccapurple;
+}
+#last{
+    width: 70%;
+    padding-top: 80px;
+    margin: auto;
+
+}
+#end{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color:  #353347;;
+    color: #fff;
+    margin: auto;
+    padding-left: 630px;
+    margin-top: 20px;
+}
+#end a img{
+    width: 50px;
+}
+#endd{
+    width: 100%;
+    height: 8vh;
+    color: #fff;
+    background-color: #393071;
+    text-align: center;
+}
+#endd h6{
+    font-size: small;
+
+}
+
+
+
+@media (min-aspect-ratio: 16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+}
